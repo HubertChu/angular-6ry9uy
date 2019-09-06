@@ -28,8 +28,12 @@
  * are required for JIT compilation.  StackBlitz examples are
  * compiled using JIT.
  */
+/* Hubert (see https://github.com/zloirock/core-js/issues/412)
 import 'core-js/es6/reflect';
 import 'core-js/es7/reflect';
+*/
+
+import 'core-js/proposals/reflect-metadata';
 
 /**
  * Web Animations `@angular/platform-browser/animations`
